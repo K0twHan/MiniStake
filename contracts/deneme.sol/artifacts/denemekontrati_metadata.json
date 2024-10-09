@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "deneme",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "naber",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/deneme.sol/constructor.sol": "denemekontrati"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/deneme.sol/constructor.sol": {
+			"keccak256": "0xde657c479bb5801f4d7eea9cdb48ffee0a37d6e5cff73a851824552c7bf0a0d6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://403e4c21c57f41229141b7208fae8938794c8a77adcb4db21507466b8301e3c2",
+				"dweb:/ipfs/Qmd5MbHjYrnfSHroi7ZhjSJBdVN1ty5Ed37sjtaCpqg7zC"
+			]
+		}
+	},
+	"version": 1
+}

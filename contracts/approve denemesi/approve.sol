@@ -13,20 +13,20 @@ contract approve {
 
     }
    
-    function transferfromUser(address _to,uint value) public returns(bool) {
+    function transferfromFunct(address _to,uint value) public returns(bool) {
         require(token.allowance(msg.sender, address(this)) >= value);
         return token.transferFrom(msg.sender, _to, value);
        
     }
      // burdaki hata kullanıcı gönderdiğinden az transfer ederse tekrar eski gönderdiğini kullanamaz
-    function sendTokenToUser(address _to,uint value) public returns(bool)
+    function JustTransferFunc(address _to,uint value) public returns(bool)
     {
        require(token.balanceOf(address(this) ) >= TotalBalance + value);
        TotalBalance = token.balanceOf(address(this)) - value;
        token.transfer(_to, value);
        return true;
     }
-    function Allowence() public view  returns(uint,uint){
+    function AllowenceFunc() public view  returns(uint,uint){
         uint tokens= token.balanceOf(msg.sender);
         return (token.allowance(msg.sender,address(this) ),tokens);
     }

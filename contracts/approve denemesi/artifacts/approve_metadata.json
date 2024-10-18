@@ -12,7 +12,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "Allowence",
+				"name": "AllowenceFunc",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -26,6 +26,30 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "JustTransferFunc",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -54,31 +78,7 @@
 						"type": "uint256"
 					}
 				],
-				"name": "sendTokenToUser",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_to",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "value",
-						"type": "uint256"
-					}
-				],
-				"name": "transferfromUser",
+				"name": "transferfromFunct",
 				"outputs": [
 					{
 						"internalType": "bool",
@@ -126,11 +126,11 @@
 			]
 		},
 		"contracts/approve denemesi/approve.sol": {
-			"keccak256": "0x0af84a17de8ae8873d0b8c677d7bed27672a94d32e8f01c1aa2d06a9c84a07d0",
+			"keccak256": "0x6b299a9dec11d4cb40b1cd26591c3f8c2899b9e175a1117130c93726590ca6fe",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://66913bec2e3ef528d952fc0c34a6b0603217904187b27a384efaf54b8597bfb8",
-				"dweb:/ipfs/QmVedgXF5WNTn1ZdX9NMhuueTNQaVF9yYkWptpNHvCvC6e"
+				"bzz-raw://beaee7b42e0223182a6be0bdf5d9ff06a4e42b4267a8c3abb6fcaa4fa06e52e9",
+				"dweb:/ipfs/QmatabF6idHaERgTVHgNJvyiNUJJY6hGRbcqDunPY2QRc5"
 			]
 		}
 	},

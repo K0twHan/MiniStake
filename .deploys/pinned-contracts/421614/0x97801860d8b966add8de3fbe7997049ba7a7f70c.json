@@ -1,40 +1,21 @@
 {
-  "name": "Mapping",
-  "address": "0xD7ACd2a9FD159E69Bb102A1ca21C9a3e3A5F771B",
+  "name": "approve",
+  "address": "0x97801860d8b966add8de3fbe7997049ba7a7f70c",
   "abi": [
     {
       "inputs": [
         {
           "internalType": "address",
-          "name": "_address",
-          "type": "address"
-        }
-      ],
-      "name": "remove",
-      "outputs": [
-        {
-          "internalType": "bool",
-          "name": "",
-          "type": "bool"
-        }
-      ],
-      "stateMutability": "nonpayable",
-      "type": "function"
-    },
-    {
-      "inputs": [
-        {
-          "internalType": "address",
-          "name": "_address",
+          "name": "_to",
           "type": "address"
         },
         {
           "internalType": "uint256",
-          "name": "_i",
+          "name": "value",
           "type": "uint256"
         }
       ],
-      "name": "set",
+      "name": "sendTokenToUser",
       "outputs": [
         {
           "internalType": "bool",
@@ -49,12 +30,40 @@
       "inputs": [
         {
           "internalType": "address",
-          "name": "_address",
+          "name": "_to",
           "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
         }
       ],
-      "name": "get",
+      "name": "transferfromUser",
       "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "Allowence",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        },
         {
           "internalType": "uint256",
           "name": "",
@@ -65,14 +74,8 @@
       "type": "function"
     },
     {
-      "inputs": [
-        {
-          "internalType": "address",
-          "name": "",
-          "type": "address"
-        }
-      ],
-      "name": "mymap",
+      "inputs": [],
+      "name": "TotalBalance",
       "outputs": [
         {
           "internalType": "uint256",
@@ -84,6 +87,6 @@
       "type": "function"
     }
   ],
-  "filePath": "Basic - 1/contracts/deneme.sol/Mapping.sol",
-  "pinnedAt": 1728161817998
+  "filePath": "Basic - 1/contracts/approve denemesi/approve.sol",
+  "pinnedAt": 1729286840833
 }

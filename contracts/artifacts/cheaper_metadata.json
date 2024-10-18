@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.10+commit.fc410830"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getpay",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/cheap.sol": "cheaper"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/cheap.sol": {
+			"keccak256": "0x6bf32a784678591bf469bc1c09c497a2abeedcfbb4ec8cb8d4620a6360622311",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://067fc742a177e6ce81aaed9e59eea2d8f97425c7b9b5e0a96b617a097fb5df22",
+				"dweb:/ipfs/QmekobDWuNZM9A4eB8fPAhSrQNSe9ozMoVNP7CbBUiPhre"
+			]
+		}
+	},
+	"version": 1
+}
